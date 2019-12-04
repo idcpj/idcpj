@@ -8,6 +8,8 @@ master.go
 
 监听 server.go 向 etcd services/ 中监听到的新ip
 
+## 前置工作
+需修改 master.go ,runserver/*.go 文件的 ip http://192.168.0.229 为自己etcd 所在 ip
 
 ## 启动
 启动 etcd 单机集群
