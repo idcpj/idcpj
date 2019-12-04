@@ -10,6 +10,13 @@ master.go
 
 
 ## 启动
+启动 etcd 单机集群
+```bash
+sh start_etcd.sh 1
+sh start_etcd.sh 2
+sh start_etcd.sh 3
+```
+
 启动 master 监听服务
 ```bash
 
